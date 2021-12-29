@@ -131,12 +131,4 @@ def create_figure():
 
 
 app.run()
-# def create_works():
-#     con = sqlite3.connect('works.sqlite')
-#     cursor = con.cursor()
-#     cursor.execute('drop table if exists works')
-#     cursor.execute(
-#         'create table if not exists works (ID INTEGER PRIMARY KEY AUTOINCREMENT,salary INTEGER,educationType TEXT,'
-#         'jobTitle TEXT,qualification TEXT,gender TEXT,dateModify TEXT,skills TEXT,otherInfo TEXT)')
-#     con.commit()
 
